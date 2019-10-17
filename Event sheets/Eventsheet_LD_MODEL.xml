@@ -1614,5 +1614,27 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="435817307073381">
+            <conditions>
+                <condition behavior="Platform" id="7" name="On stopped" sid="674492946281724" type="Player" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="314028124424463" type="Player">
+                    <param id="0" name="Animation">&quot;stop&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="205737612536657">
+            <conditions>
+                <condition behavior="Platform" id="8" name="On moved" sid="146039678280735" type="Player" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="591494917049397" type="Player">
+                    <param id="0" name="Animation">&quot;Course&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
