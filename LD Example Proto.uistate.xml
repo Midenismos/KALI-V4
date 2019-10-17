@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">Level_0</layout>
+        <layout order="1">Level_1</layout>
+        <layout order="2">Level_2</layout>
+        <layout active="1" order="3">Level_3</layout>
+        <layout order="4">Tittle Screen</layout>
+        <layout order="5">Level_4.1</layout>
+        <layout order="6">Level_4.2</layout>
+        <layout order="7">Level_4.4</layout>
+        <layout order="8">Level_4.3</layout>
+        <layout order="9">Options</layout>
+        <layout order="11">LD_MODEL</layout>
+        <layout order="12">Credits</layout>
+        <event-sheet order="10">Event sheet Options</event-sheet>
+        <event-sheet order="13">Eventsheet_LD_MODEL</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="1" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="0">
+        <family expanded="1" name="Family1" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="object-folder/Tutorial/" />
+        <folder expanded="0" path="object-folder/Tutorial/Onde/" />
+        <folder expanded="0" path="object-folder/Tutorial/Jump/" />
+        <folder expanded="0" path="object-folder/Tutorial/Double Jump/" />
+        <folder expanded="0" path="object-folder/Tutorial/Tool 1/" />
+        <folder expanded="0" path="object-folder/Tutorial/Key/" />
+        <folder expanded="1" path="object-folder/Tutorial/Tool 2/" />
+        <folder expanded="0" path="object-folder/Menus/" />
+        <folder expanded="0" path="object-folder/Menus/SelectionLevels/" />
+        <folder expanded="0" path="object-folder/Menus/TitleScreen/" />
+        <folder expanded="0" path="object-folder/Menus/Pause/" />
+        <folder expanded="0" path="object-folder/Tools/" />
+        <folder expanded="0" path="object-folder/Tools/Tool_1/" />
+        <folder expanded="1" path="object-folder/Tools/Tool_2/" />
+        <folder expanded="0" path="object-folder/LDBricks/" />
+        <folder expanded="0" path="object-folder/LDBricks/Destination/" />
+        <folder expanded="0" path="object-folder/Controls/" />
+        <folder expanded="0" path="object-folder/Background/" />
+        <folder expanded="0" path="object-folder/Player/" />
+        <folder expanded="0" path="object-folder/Sound/" />
+        <folder expanded="0" path="object-folder/TransitionLevels/" />
+        <folder expanded="0" path="object-folder/TransitionLevels/InPainting/" />
+        <folder expanded="1" path="object-folder/TransitionLevels/OutPainting/" />
+        <folder expanded="0" path="object-folder/Credits/" />
+        <folder expanded="0" path="object-folder/Onde/" />
+        <folder expanded="0" path="object-folder/Options/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Help_Onde_End/" />
+        <folder expanded="1" path="animation-folder/Help_Onde_Sign/" />
+        <folder expanded="1" path="animation-folder/Help_Onde_Start/" />
+        <folder expanded="1" path="animation-folder/Help_Onde_Text1/" />
+        <folder expanded="1" path="animation-folder/Help_Onde_Text2/" />
+        <folder expanded="1" path="animation-folder/Help_Jump_End/" />
+        <folder expanded="1" path="animation-folder/Help_Jump_Sign/" />
+        <folder expanded="1" path="animation-folder/Help_Jump_Start/" />
+        <folder expanded="1" path="animation-folder/Help_Jump_Text/" />
+        <folder expanded="1" path="animation-folder/Help_DoubleJump_End/" />
+        <folder expanded="1" path="animation-folder/Help_DoubleJump_Sign/" />
+        <folder expanded="1" path="animation-folder/Help_DoubleJump_Start/" />
+        <folder expanded="1" path="animation-folder/Help_DoubleJump_Text/" />
+        <folder expanded="1" path="animation-folder/Help_Tool1_End/" />
+        <folder expanded="1" path="animation-folder/Help_Tool1_Text1/" />
+        <folder expanded="1" path="animation-folder/Help_Tool1_Start/" />
+        <folder expanded="1" path="animation-folder/Help_Tool1_Text2/" />
+        <folder expanded="1" path="animation-folder/Help_Stain/" />
+        <folder expanded="1" path="animation-folder/Help_Key_Start/" />
+        <folder expanded="1" path="animation-folder/Help_Key_End/" />
+        <folder expanded="1" path="animation-folder/Help_Key_Text/" />
+        <folder expanded="1" path="animation-folder/Help_Tool2_Text/" />
+        <folder expanded="1" path="animation-folder/Help_Tool2_Start/" />
+        <folder expanded="1" path="animation-folder/Help_Tool2_End/" />
+        <folder expanded="1" path="animation-folder/Help_Tool2_Text2/" />
+        <folder expanded="1" path="animation-folder/Help_Tool2_Start2/" />
+        <folder expanded="1" path="animation-folder/Help_Tool2_End2/" />
+        <folder expanded="1" path="animation-folder/Help_Tool2_Text3/" />
+        <folder expanded="1" path="animation-folder/Background/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Revealer/" />
+        <folder expanded="1" path="animation-folder/BlackPart/" />
+        <folder expanded="1" path="animation-folder/Tool_1/" />
+        <folder expanded="1" path="animation-folder/Held_Tool_2/" />
+        <folder expanded="1" path="animation-folder/Tool_2/" />
+        <folder expanded="1" path="animation-folder/Destination/" />
+        <folder expanded="1" path="animation-folder/LightCone/" />
+        <folder expanded="1" path="animation-folder/Ground/" />
+        <folder expanded="1" path="animation-folder/MovingBrick/" />
+        <folder expanded="1" path="animation-folder/OLD_MovingBrick/" />
+        <folder expanded="1" path="animation-folder/UnmovingBrick/" />
+        <folder expanded="1" path="animation-folder/Key/" />
+        <folder expanded="1" path="animation-folder/AnimationStatesBloc/" />
+        <folder expanded="1" path="animation-folder/Wave/" />
+        <folder expanded="1" path="animation-folder/Scenery_Background/" />
+        <folder expanded="1" path="animation-folder/Background_GREY/" />
+        <folder expanded="1" path="animation-folder/Background_BLACK/" />
+        <folder expanded="1" path="animation-folder/WaterEffect/" />
+        <folder expanded="1" path="animation-folder/Water/" />
+        <folder expanded="1" path="animation-folder/PauseBackground/" />
+        <folder expanded="1" path="animation-folder/Player/" />
+        <folder expanded="1" path="animation-folder/Kali/" />
+        <folder expanded="1" path="animation-folder/SoundManager/" />
+        <folder expanded="1" path="animation-folder/ZoomIn/" />
+        <folder expanded="1" path="animation-folder/SpriteCredit/" />
+        <folder expanded="1" path="animation-folder/Onde/" />
+        <folder expanded="1" path="animation-folder/Outils1/" />
+        <folder expanded="1" path="animation-folder/SansTitre3/" />
+        <folder expanded="1" path="animation-folder/IMG_/" />
+    </folders-expanded>
+</c2uistate>

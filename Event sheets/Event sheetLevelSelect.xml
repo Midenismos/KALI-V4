@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheetLevelSelect</name>
+    <events>
+        <event-block sid="233552503140642">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="772627954377665" type="System" />
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="906287466253990" type="Sprite6" />
+                <action id="5" name="Set frame" sid="405406441843376" type="Sprite6">
+                    <param id="0" name="Frame number">7</param>
+                </action>
+                <action id="2" name="Stop" sid="588809422719737" type="Wave" />
+            </actions>
+        </event-block>
+        <event-group description="" sid="626632716957940" title="Button">
+            <sub-events>
+                <event-block sid="396596738271378">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="724944205923889" type="Keyboard">
+                            <param id="0" name="Key">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="664910953403510" type="Wave">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="860827058740185">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="211384593852861" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Level3</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="891158814038478" type="Level3" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="993221498398853" type="System">
+                            <param id="0" name="Layout">Level_2.2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="448631180468626">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="686608205596317" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Level2</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="923722959890926" type="Level2" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="802914157182222" type="System">
+                            <param id="0" name="Layout">Level_1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="380176748555305">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="313125233533910" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Level_1</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="259859238921942" type="Level_1" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="850533555172255" type="System">
+                            <param id="0" name="Layout">Level_2.1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="978673392726526">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="609269680711807" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Level_0</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="148032772240950" type="Level_0" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="126701651233485" type="System">
+                            <param id="0" name="Layout">Level_0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="348646178391100">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="834687432683415" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Back</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="269384747842723" type="Back" />
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="910968432787914" type="System">
+                            <param id="0" name="Layout">Tittle Screen</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="353515092490170">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="944189244882776" type="Wave">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="875986772708768" type="Sprite6">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="143078959576467" type="Sprite6">
+                    <param id="0" name="Animation">&quot;Appear&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="672434064491989">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="298555928863349" type="Wave">
+                    <param id="0" name="Object">Sprite6</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="324467984492458" type="Sprite6">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">8</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="773638322118774" type="Sprite6">
+                    <param id="0" name="Animation">&quot;Disappear&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="273629446858292">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="590628190783191" type="Wave">
+                    <param id="0" name="Object">Level_0</param>
+                </condition>
+                <condition id="0" name="Compare at X" sid="583753653159097" type="Array">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Complete&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="287845618318873" type="Level_0">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="555854270122926" type="Level_1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="394167594743822">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="397894202079408" type="Wave">
+                    <param id="0" name="Object">Level_1</param>
+                </condition>
+                <condition id="0" name="Compare at X" sid="437545097874433" type="Array">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Complete&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="347991626974631" type="Level2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="326897543832463">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="263026741788438" type="Wave">
+                    <param id="0" name="Object">Level3</param>
+                </condition>
+                <condition id="0" name="Compare at X" sid="490895584949551" type="Array">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Complete&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="962510267811422" type="Level3">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

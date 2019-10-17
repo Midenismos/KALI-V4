@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet Options</name>
+    <events>
+        <variable constant="0" name="WaveKey" sid="289691887759076" static="0" type="number">9</variable>
+        <variable constant="0" name="WaveCtrl" sid="888961548703793" static="0" type="text">Tab</variable>
+        <variable constant="0" name="LeftKey" sid="614543927952078" static="0" type="number">81</variable>
+        <variable constant="0" name="LeftCtrl" sid="756537741810947" static="0" type="text">Q</variable>
+        <variable constant="0" name="RightKey" sid="405930774811947" static="0" type="number">68</variable>
+        <variable constant="0" name="RightCtrl" sid="845860749085599" static="0" type="text">D</variable>
+        <variable constant="0" name="jumpKey" sid="121180740979834" static="0" type="number">90</variable>
+        <variable constant="0" name="JumpCtrl" sid="650356710442682" static="0" type="text">Z</variable>
+        <variable constant="0" name="LastKeyPressed" sid="223454659811366" static="0" type="number">0</variable>
+        <variable constant="0" name="isUnbound" sid="839960163024657" static="0" type="number">0</variable>
+        <event-block sid="433985281097889">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="828445862977440" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="731330797763699" type="System">
+                    <param id="0" name="Variable">LastKeyPressed</param>
+                    <param id="1" name="Value">keyboard.LastKeyCode</param>
+                </action>
+                <action id="-9" name="Set value" sid="791201778899199" type="System">
+                    <param id="0" name="Variable">JumpCtrl</param>
+                    <param id="1" name="Value">Keyboard.StringFromKeyCode(jumpKey)</param>
+                </action>
+                <action id="-9" name="Set value" sid="909697559312352" type="System">
+                    <param id="0" name="Variable">LeftCtrl</param>
+                    <param id="1" name="Value">Keyboard.StringFromKeyCode(LeftKey)</param>
+                </action>
+                <action id="-9" name="Set value" sid="869778388631074" type="System">
+                    <param id="0" name="Variable">RightCtrl</param>
+                    <param id="1" name="Value">Keyboard.StringFromKeyCode(RightKey)</param>
+                </action>
+                <action id="-9" name="Set value" sid="178350582487187" type="System">
+                    <param id="0" name="Variable">WaveCtrl</param>
+                    <param id="1" name="Value">Keyboard.StringFromKeyCode(WaveKey)</param>
+                </action>
+                <action id="0" name="Set text" sid="182218292989130" type="Jump">
+                    <param id="0" name="Text">&quot;Jump: &quot;&amp;JumpCtrl</param>
+                </action>
+                <action id="0" name="Set text" sid="636498500216259" type="LeftTxt">
+                    <param id="0" name="Text">&quot;Left: &quot;&amp;LeftCtrl</param>
+                </action>
+                <action id="0" name="Set text" sid="450678105462373" type="RightTxt">
+                    <param id="0" name="Text">&quot;Right: &quot;&amp;RightCtrl</param>
+                </action>
+                <action id="0" name="Set text" sid="471227427889787" type="BlastWave">
+                    <param id="0" name="Text">&quot;Blast Wave: &quot;&amp;WaveCtrl</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="835194238539356" title="JumpGroup">
+            <sub-events>
+                <event-block sid="759078720328086">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="445222911762576" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Jump</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="399667488316065" type="System">
+                            <param id="0" name="Variable">isUnbound</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="270583127439956" type="System">
+                            <param id="0" name="Variable">jumpKey</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="222552704089594">
+            <conditions>
+                <condition id="1" name="On any key pressed" sid="707919484508107" type="Keyboard" />
+                <condition id="-14" name="Compare variable" sid="425610799664764" type="System">
+                    <param id="0" name="Variable">isUnbound</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="121550719831320" type="System">
+                    <param id="0" name="Variable">isUnbound</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="410252151381019" type="System">
+                    <param id="0" name="Variable">jumpKey</param>
+                    <param id="1" name="Value">Keyboard.LastKeyCode</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="543097983928573">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="905519461922545" type="System">
+                            <param id="0" name="Variable">jumpKey</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">LeftKey</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="550909135420211" type="System">
+                            <param id="0" name="Variable">LeftKey</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="980496480916919">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="501353952275164" type="System">
+                            <param id="0" name="Variable">jumpKey</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">RightKey</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="691363478856087" type="System">
+                            <param id="0" name="Variable">RightKey</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="466431472405514">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="826659561553277" type="System">
+                            <param id="0" name="Variable">jumpKey</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">WaveKey</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="820139518367391" type="System">
+                            <param id="0" name="Variable">WaveKey</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-group description="" sid="492303651211509" title="LeftGroup">
+            <sub-events>
+                <event-block sid="464478671658370">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="967908887594673" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">LeftTxt</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="332783927709511" type="System">
+                            <param id="0" name="Variable">isUnbound</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="437144990799271" type="System">
+                            <param id="0" name="Variable">LeftKey</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="137280787072278">
+                    <conditions>
+                        <condition id="1" name="On any key pressed" sid="513548117409731" type="Keyboard" />
+                        <condition id="-14" name="Compare variable" sid="510935670344320" type="System">
+                            <param id="0" name="Variable">isUnbound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="664872335843815" type="System">
+                            <param id="0" name="Variable">isUnbound</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="832709541932387" type="System">
+                            <param id="0" name="Variable">LeftKey</param>
+                            <param id="1" name="Value">Keyboard.LastKeyCode</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="413850704563295">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="376824860825242" type="System">
+                                    <param id="0" name="Variable">LeftKey</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">jumpKey</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="611832773003370" type="System">
+                                    <param id="0" name="Variable">jumpKey</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="988756635534652">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="101895383805498" type="System">
+                                    <param id="0" name="Variable">LeftKey</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">RightKey</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="793157378268051" type="System">
+                                    <param id="0" name="Variable">RightKey</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="797418508812732">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="878494111807453" type="System">
+                                    <param id="0" name="Variable">LeftKey</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">WaveKey</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="146082904522479" type="System">
+                                    <param id="0" name="Variable">WaveKey</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="671977138281324" title="RightGroup">
+            <sub-events>
+                <event-block sid="852324436422180">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="435857456018021" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">RightTxt</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="826976894328273" type="System">
+                            <param id="0" name="Variable">isUnbound</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="128580757913372" type="System">
+                            <param id="0" name="Variable">RightKey</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="171821249177973">
+                    <conditions>
+                        <condition id="1" name="On any key pressed" sid="993585683836302" type="Keyboard" />
+                        <condition id="-14" name="Compare variable" sid="395990824534670" type="System">
+                            <param id="0" name="Variable">isUnbound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="447873380519917" type="System">
+                            <param id="0" name="Variable">isUnbound</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="544847934473454" type="System">
+                            <param id="0" name="Variable">RightKey</param>
+                            <param id="1" name="Value">Keyboard.LastKeyCode</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="815321519730948">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="184980361709366" type="System">
+                                    <param id="0" name="Variable">RightKey</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">jumpKey</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="690683075961656" type="System">
+                                    <param id="0" name="Variable">jumpKey</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="984851634879579">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="985294971340064" type="System">
+                                    <param id="0" name="Variable">RightKey</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">LeftKey</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="490929439589395" type="System">
+                                    <param id="0" name="Variable">LeftKey</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="211992612335746">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="603095389290432" type="System">
+                                    <param id="0" name="Variable">RightKey</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">WaveKey</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="114373573380618" type="System">
+                                    <param id="0" name="Variable">WaveKey</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="137733259850678" title="WaveGroup">
+            <sub-events>
+                <event-block sid="472136422872686">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="261858861258605" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">BlastWave</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="514978363515265" type="System">
+                            <param id="0" name="Variable">isUnbound</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="496281628141048" type="System">
+                            <param id="0" name="Variable">WaveKey</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="764184164116282">
+                    <conditions>
+                        <condition id="1" name="On any key pressed" sid="371898528795324" type="Keyboard" />
+                        <condition id="-14" name="Compare variable" sid="567261511277867" type="System">
+                            <param id="0" name="Variable">isUnbound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="958739135912828" type="System">
+                            <param id="0" name="Variable">isUnbound</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="756286852661034" type="System">
+                            <param id="0" name="Variable">WaveKey</param>
+                            <param id="1" name="Value">Keyboard.LastKeyCode</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="257741106443527">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="992388385437470" type="System">
+                                    <param id="0" name="Variable">WaveKey</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">jumpKey</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="675195972244450" type="System">
+                                    <param id="0" name="Variable">jumpKey</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="612399421332095">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="791838877906260" type="System">
+                                    <param id="0" name="Variable">WaveKey</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">LeftKey</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="256123193598034" type="System">
+                                    <param id="0" name="Variable">LeftKey</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="706216099750996">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="741588476382060" type="System">
+                                    <param id="0" name="Variable">WaveKey</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">RightKey</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="354264372792418" type="System">
+                                    <param id="0" name="Variable">RightKey</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="174844169700737">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="759665529295926" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">BackOptions</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="102134739639998" type="System">
+                    <param id="0" name="Layout">Tittle Screen</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

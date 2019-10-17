@@ -1,0 +1,1615 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>LD Example Proto</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>31q7mi1ig4ph1</unique-id>
+    <saved-with-version>27200</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects>
+        <effect author="Scirra" id="noise">Noise</effect>
+        <effect author="Scirra" id="warp">Warp</effect>
+        <effect author="Scirra" id="warpmask">Warp Mask</effect>
+    </used-effects>
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>3700</width>
+        <height>2500</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Tittle Screen</first-layout>
+    <use-loader-layout>1</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar only</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="Tutorial">
+            <object-folder name="Onde">
+                <object-type name="Help_Onde_End" sid="593982856285952">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="412313491492219" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Onde_Sign" sid="767520347063941">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="324046920846337" speed="5">
+                            <frame duration="1" hotspotX="0.501992" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\UI\Onde_INPUT.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Onde_Start" sid="579603024323823">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="901490198980628" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Onde_Text1" sid="931551831741904">
+                    <plugin id="Sprite" />
+                    <effects>
+                        <effect-type name="Noise">
+                            <effect id="noise" />
+                        </effect-type>
+                    </effects>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="884495793809448" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\UI\ONDE.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Onde_Text2" sid="302323469092681">
+                    <plugin id="Sprite" />
+                    <effects>
+                        <effect-type name="Noise">
+                            <effect id="noise" />
+                        </effect-type>
+                    </effects>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="451965318154513" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\UI\ONDE_TAB.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="Jump">
+                <object-type name="Help_Jump_End" sid="953470957476174">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="244576566302632" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Jump_Sign" sid="658624083870676">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="832770740631850" speed="5">
+                            <frame duration="1" hotspotX="0.501992" hotspotY="0.502008" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\UI\Jump_INPUT.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Jump_Start" sid="711444945987010">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="117695701050165" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Jump_Text" sid="904347907077595">
+                    <plugin id="Sprite" />
+                    <effects>
+                        <effect-type name="Noise">
+                            <effect id="noise" />
+                        </effect-type>
+                    </effects>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="929050753348936" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\UI\JUMP.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="Double Jump">
+                <object-type name="Help_DoubleJump_End" sid="592530858509394">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="633128618764346" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_DoubleJump_Sign" sid="104224003052593">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="504623826107356" speed="5">
+                            <frame duration="1" hotspotX="0.501992" hotspotY="0.500986" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\UI\Double_Jump_INPUT.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_DoubleJump_Start" sid="391465465820217">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="324330846496492" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_DoubleJump_Text" sid="815532120867563">
+                    <plugin id="Sprite" />
+                    <effects>
+                        <effect-type name="Noise">
+                            <effect id="noise" />
+                        </effect-type>
+                    </effects>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="650963747913788" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\UI\TUTO TEXT\DOUBLEJUMP2.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="Tool 1">
+                <object-type name="Help_Tool1_End" sid="478782457978787">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="239616399982802" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Tool1_Text1" sid="840254766774336">
+                    <plugin id="Sprite" />
+                    <effects>
+                        <effect-type name="Noise">
+                            <effect id="noise" />
+                        </effect-type>
+                    </effects>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="340630802671160" speed="5">
+                            <frame duration="1" hotspotX="0.500214" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\UI\Tool1.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Tool1_Start" sid="266223330659148">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="880333638766969" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Tool1_Text2" sid="615302165777588">
+                    <plugin id="Sprite" />
+                    <effects>
+                        <effect-type name="Noise">
+                            <effect id="noise" />
+                        </effect-type>
+                    </effects>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="914474034973728" speed="5">
+                            <frame duration="1" hotspotX="0.50026" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\UI\STAIN_brumetext.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Stain" sid="121851440022779">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="521371282507127" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="Key">
+                <object-type name="Help_Key_Start" sid="367217162634495">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="670436118597739" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Key_End" sid="607671509331385">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="105828316484227" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Key_Text" sid="129995132242054">
+                    <plugin id="Sprite" />
+                    <effects>
+                        <effect-type name="Noise">
+                            <effect id="noise" />
+                        </effect-type>
+                    </effects>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="328006980854286" speed="5">
+                            <frame duration="1" hotspotX="0.500169" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\UI\TUTO TEXT\KEY.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="Tool 2">
+                <object-type name="Help_Tool2_Text" sid="789569150786996">
+                    <plugin id="Sprite" />
+                    <effects>
+                        <effect-type name="Noise">
+                            <effect id="noise" />
+                        </effect-type>
+                    </effects>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="722978406522820" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\UI\TUTO TEXT\Tool2_MOVING.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Tool2_Start" sid="777544043759916">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="166942371463647" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Tool2_End" sid="572084377745713">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="568325085823718" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Tool2_Text2" sid="865311900484314">
+                    <plugin id="Sprite" />
+                    <effects>
+                        <effect-type name="Noise">
+                            <effect id="noise" />
+                        </effect-type>
+                    </effects>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="421731731893189" speed="5">
+                            <frame duration="1" hotspotX="0.504" hotspotY="0.504" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\UI\TOOL2.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Tool2_Start2" sid="765751460497196">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="669007999159397" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Tool2_End2" sid="659579246551407">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="616638736617866" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Help_Tool2_Text3" sid="949409947971636">
+                    <plugin id="Sprite" />
+                    <effects>
+                        <effect-type name="Noise">
+                            <effect id="noise" />
+                        </effect-type>
+                    </effects>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="968904093371916" speed="5">
+                            <frame duration="1" hotspotX="0.500131" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\UI\TUTO TEXT\Tool2_MOVINGLEVITER.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+        </object-folder>
+        <object-folder name="Menus">
+            <object-folder name="SelectionLevels">
+                <object-type name="Level_0" sid="312543057070030">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Level2" sid="151977865891648">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Level4" sid="407543793387384">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Level3" sid="388753670358012">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Level_1" sid="313146472564692">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Back" sid="181893707781791">
+                    <plugin id="Text" />
+                </object-type>
+            </object-folder>
+            <object-folder name="TitleScreen">
+                <object-type name="LevelSelect" sid="268126000712454">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Background" sid="391419156900039">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="311934953531948" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.50014" original-source="F:\Users\dupont\Pictures\UI\TitleScreen_White.png">
+                                <collision-poly>
+                                    <point x="0.142591" y="0.149902" />
+                                    <point x="0.5" y="0.00140095" />
+                                    <point x="0.847015" y="0.160829" />
+                                    <point x="0.9992" y="0.49986" />
+                                    <point x="0.896589" y="0.891286" />
+                                    <point x="0.5" y="0.994676" />
+                                    <point x="0.142324" y="0.850378" />
+                                    <point x="0.0130597" y="0.49986" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Start" sid="129404423239658">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="ButtonLevelselect" sid="295571534794924">
+                    <plugin id="Button" />
+                </object-type>
+                <object-type name="Credits" sid="454827814794004">
+                    <plugin id="Text" />
+                </object-type>
+            </object-folder>
+            <object-folder name="Pause">
+                <object-type name="Continue" sid="374934078699656">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Exit" sid="618733174907329">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Pause" sid="749331098968535">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Retry" sid="158006313618991">
+                    <plugin id="Text" />
+                </object-type>
+            </object-folder>
+            <object-type name="Sprite6" sid="657124947970859">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="Warp">
+                        <effect id="warp" />
+                    </effect-type>
+                </effects>
+                <animation-folder>
+                    <animation framecount="8" loop="0" name="Disappear" pingpong="0" repeatcount="1" repeatto="0" sid="166228327356210" speed="15">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="9" loop="0" name="Appear" pingpong="0" repeatcount="1" repeatto="0" sid="922125653351739" speed="15">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="F:\Users\dupont\Pictures\padlock.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Locked" pingpong="0" repeatcount="1" repeatto="0" sid="947404937680090" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite" sid="155592995893610">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="Warp">
+                        <effect id="warp" />
+                    </effect-type>
+                </effects>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="671884459461716" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite4" sid="256153199834629">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="493815763950167" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Tools">
+            <object-folder name="Tool_1">
+                <object-type name="Revealer" sid="960990469324729">
+                    <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="IsActive" sid="648932155295066" type="boolean" />
+                    </instance-variables>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="959545155383299" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0.248" y="0.248" />
+                                    <point x="0.5" y="0.152" />
+                                    <point x="0.744" y="0.256" />
+                                    <point x="0.844" y="0.5" />
+                                    <point x="0.748" y="0.748" />
+                                    <point x="0.5" y="0.856" />
+                                    <point x="0.244" y="0.756" />
+                                    <point x="0.14" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="BlackPart" sid="469225332629275">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="467750139828104">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="269847213161868" speed="5">
+                            <frame duration="1" hotspotX="0.532787" hotspotY="0.561983" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Illustration_sans_titre-1.png">
+                                <collision-poly>
+                                    <point x="0.319672" y="0.322314" />
+                                    <point x="0.5" y="0.272727" />
+                                    <point x="0.696721" y="0.305785" />
+                                    <point x="0.786885" y="0.495868" />
+                                    <point x="0.721311" y="0.719008" />
+                                    <point x="0.5" y="0.77686" />
+                                    <point x="0.327869" y="0.669421" />
+                                    <point x="0.270492" y="0.495868" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Tool_1" sid="946843101597571">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="508475008201746" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="Tool_2">
+                <object-type name="Held_Tool_2" sid="469906217391533">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Pin" sid="376795224764017">
+                            <behavior id="Pin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="874846190603777" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\TOOL2\VALID\jh2.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Tool_2" sid="400373843047439">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="868037297164135" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\TOOL2\VALID\jh2.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+        </object-folder>
+        <object-folder name="LDBricks">
+            <object-folder name="Destination">
+                <object-type name="Destination" sid="454235047821366">
+                    <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="KeyRequired" sid="170352762554066" type="number" />
+                        <instance-variable name="LevelNumber" sid="966870683765478" type="number" />
+                    </instance-variables>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Moon" pingpong="0" repeatcount="1" repeatto="0" sid="454626805873209" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500538" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Destination\VALID\Sans titre - 1.png" />
+                        </animation>
+                        <animation framecount="1" loop="0" name="Owl" pingpong="0" repeatcount="1" repeatto="0" sid="427617363537886" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="LightCone" sid="503371290108285">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="592121572681730" speed="5">
+                            <frame duration="1" hotspotX="0.64268" hotspotY="0.496865" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Destination\LIGHT CONE\md_5b1568d387750.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-type name="Ground" sid="9234016785492519">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="7345907925344558">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1988067634270988" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MovingBrick" sid="719758631282227">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="IsGrabbed" sid="820019422461154" type="boolean" />
+                    <instance-variable name="speed" sid="514001026364711" type="number" />
+                    <instance-variable name="currentSpeed" sid="554585214474611" type="number" />
+                    <instance-variable name="desiredGravity" sid="342426652525591" type="number" />
+                    <instance-variable name="IsClosest" sid="786343174129037" type="boolean" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Platform" sid="281460673915243">
+                        <behavior id="Platform" />
+                    </behavior-type>
+                    <behavior-type name="Solid" sid="578772552227923">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="409558270072270" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500321" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\TOOL2\VALID\JH.png">
+                            <collision-poly>
+                                <point x="0.0900386" y="0.219011" />
+                                <point x="0.5" y="0.000642261" />
+                                <point x="0.901021" y="0.248555" />
+                                <point x="0.906769" y="0.795761" />
+                                <point x="0.5" y="0.999358" />
+                                <point x="0.0753514" y="0.770071" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="OLD_MovingBrick" sid="6963254266250335">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="isGrabbed" sid="5318981020780974" type="boolean" />
+                    <instance-variable name="speed" sid="6608884261767041" type="number" />
+                    <instance-variable name="desiredGravity" sid="8311312261077004" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Platform" sid="3093640511993522">
+                        <behavior id="Platform" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3272417869905934" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="UnmovingBrick" sid="9385908576593753">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="601377161431143">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7061647271848601" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Key" sid="239766149995868">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="currentKey" sid="686792645661955" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="441644353314980" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.336" y="0.336" />
+                                <point x="0.5" y="0.272" />
+                                <point x="0.652" y="0.348" />
+                                <point x="0.7" y="0.5" />
+                                <point x="0.636" y="0.636" />
+                                <point x="0.5" y="0.696" />
+                                <point x="0.352" y="0.648" />
+                                <point x="0.276" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Duck" pingpong="0" repeatcount="1" repeatto="0" sid="315294276143670" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jeanne Aubry\Downloads\plastic-duck.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="BallonToy" pingpong="0" repeatcount="1" repeatto="0" sid="494777943294570" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jeanne Aubry\Downloads\balloon-dog.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="AnimationStatesBloc" sid="808708434957289">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="isBlack" sid="836981992337116" type="boolean" />
+                    <instance-variable name="shapeName" sid="821823710943063" type="string" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Solid" sid="244968816478105">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="35" loop="0" name="OLD_Square_B2W" pingpong="0" repeatcount="1" repeatto="0" sid="390822720296599" speed="15">
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\=black.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 2.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 3.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 3.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 4.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 5.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 6.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 8.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 9.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 10.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 11.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 12.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 13.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 14.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 15.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 16.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 17.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 18.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 19.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\black 20.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\BLACK 21.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\BLACK 22.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\BLACK 23.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\BLACK 24.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\BLACK 25.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\BLACK 26.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\BLACK 27.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\BLACK 28.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\BLACK 29.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\BLACK 30.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\BLACK 31.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\BLACK 32.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\BLACK 33.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" original-source="F:\Users\dupont\Pictures\animation\BLACK 34.png" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                    </animation>
+                    <animation framecount="34" loop="0" name="OLD_Square_W2B" pingpong="0" repeatcount="1" repeatto="0" sid="961882473146438" speed="15">
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                        <frame duration="1" hotspotX="0.502222" hotspotY="0.502222" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Circle_B2W" pingpong="0" repeatcount="1" repeatto="0" sid="776145890561977" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.22" y="0.22" />
+                                <point x="0.5" y="0.1" />
+                                <point x="0.788" y="0.212" />
+                                <point x="0.908" y="0.5" />
+                                <point x="0.788" y="0.788" />
+                                <point x="0.5" y="0.9" />
+                                <point x="0.22" y="0.78" />
+                                <point x="0.108" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Circle_W2B" pingpong="0" repeatcount="1" repeatto="0" sid="341788845255464" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.224" y="0.224" />
+                                <point x="0.5" y="0.108" />
+                                <point x="0.784" y="0.216" />
+                                <point x="0.908" y="0.5" />
+                                <point x="0.792" y="0.792" />
+                                <point x="0.5" y="0.908" />
+                                <point x="0.216" y="0.784" />
+                                <point x="0.108" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Triangle_B2W" pingpong="0" repeatcount="1" repeatto="0" sid="424036142139914" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\LD\Bricks\Triangle_W.png">
+                            <collision-poly>
+                                <point x="0.5" y="0.00318471" />
+                                <point x="0.997238" y="0.996815" />
+                                <point x="0.00276243" y="0.996815" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Triangle_W2B" pingpong="0" repeatcount="1" repeatto="0" sid="777396476875848" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\LD\Bricks\Triangle_B.png">
+                            <collision-poly>
+                                <point x="0.5" y="0.00318471" />
+                                <point x="0.997238" y="0.996815" />
+                                <point x="0.00276243" y="0.996815" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Hexagone_B2W" pingpong="0" repeatcount="1" repeatto="0" sid="325782268263890" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\LD\Bricks\Hexa_W.png">
+                            <collision-poly>
+                                <point x="0.251196" y="0" />
+                                <point x="0.748804" y="0" />
+                                <point x="0.997608" y="0.5" />
+                                <point x="0.751196" y="1" />
+                                <point x="0.253589" y="1" />
+                                <point x="0.00239234" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Hexagone_W2B" pingpong="0" repeatcount="1" repeatto="0" sid="517766609507973" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\LD\Bricks\Hexa_B.png">
+                            <collision-poly>
+                                <point x="0.253589" y="0" />
+                                <point x="0.744019" y="0" />
+                                <point x="0.997608" y="0.5" />
+                                <point x="0.748804" y="1" />
+                                <point x="0.253589" y="1" />
+                                <point x="0.00239234" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="2" loop="0" name="Square_W2B" pingpong="0" repeatcount="1" repeatto="0" sid="976456682406759" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="2" loop="0" name="Square_B2W" pingpong="0" repeatcount="1" repeatto="0" sid="293314004558791" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Fish_W2B" pingpong="0" repeatcount="1" repeatto="0" sid="246924172856548" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501695" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\LD\Bricks\Fish_B.png">
+                            <collision-poly>
+                                <point x="0.0255906" y="0.257627" />
+                                <point x="0.226378" y="0.462712" />
+                                <point x="0.633858" y="0.0101695" />
+                                <point x="0.903543" y="0.362712" />
+                                <point x="1" y="0.562712" />
+                                <point x="0.852362" y="0.745763" />
+                                <point x="0.61811" y="0.854237" />
+                                <point x="0.283465" y="0.654237" />
+                                <point x="0.00787403" y="0.833898" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Fish_B2W" pingpong="0" repeatcount="1" repeatto="0" sid="786771025311171" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501695" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\LD\Bricks\Fish_W.png">
+                            <collision-poly>
+                                <point x="0.011811" y="0.220339" />
+                                <point x="0.244095" y="0.466102" />
+                                <point x="0.639764" y="0.00677967" />
+                                <point x="0.944882" y="0.416949" />
+                                <point x="1" y="0.562712" />
+                                <point x="0.852362" y="0.745763" />
+                                <point x="0.612205" y="0.871186" />
+                                <point x="0.287402" y="0.647458" />
+                                <point x="0.015748" y="0.854237" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Bird_W2B" pingpong="0" repeatcount="1" repeatto="0" sid="769015606905772" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501683" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\LD\Bricks\Bird_B.png">
+                            <collision-poly>
+                                <point x="0.133204" y="0.030303" />
+                                <point x="0.349421" y="0.20202" />
+                                <point x="0.325289" y="0.00336702" />
+                                <point x="0.652992" y="0.341751" />
+                                <point x="0.561776" y="0.609428" />
+                                <point x="0.88224" y="0.511784" />
+                                <point x="0.99807" y="0.653199" />
+                                <point x="0.5" y="0.949495" />
+                                <point x="0.0579151" y="0.89899" />
+                                <point x="0.0144788" y="0.728956" />
+                                <point x="0.299228" y="0.548822" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Bird_B2W" pingpong="0" repeatcount="1" repeatto="0" sid="669844330364304" speed="5">
+                        <frame duration="1" hotspotX="0.500967" hotspotY="0.501683" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\LD\Bricks\Bird_W.png">
+                            <collision-poly>
+                                <point x="0.297872" y="0.542088" />
+                                <point x="0.119923" y="0.0168351" />
+                                <point x="0.355899" y="0.19697" />
+                                <point x="0.313346" y="0" />
+                                <point x="0.659574" y="0.350168" />
+                                <point x="0.55706" y="0.599327" />
+                                <point x="0.870406" y="0.515152" />
+                                <point x="0.996131" y="0.646465" />
+                                <point x="0.499033" y="0.946128" />
+                                <point x="0.0580271" y="0.89899" />
+                                <point x="0.0154739" y="0.73064" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Owl_W2B" pingpong="0" repeatcount="1" repeatto="0" sid="316025119234701" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Chouette\Sans titre - 7.png">
+                            <collision-poly>
+                                <point x="0.01" y="0.0106383" />
+                                <point x="0.5" y="0.446809" />
+                                <point x="0.67" y="0.351064" />
+                                <point x="0.99" y="0.138298" />
+                                <point x="0.79" y="0.776596" />
+                                <point x="0.3" y="0.93617" />
+                                <point x="0.31" y="0.670213" />
+                                <point x="0.13" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Owl_B2W" pingpong="0" repeatcount="1" repeatto="0" sid="387688829468081" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.01" y="0.0106383" />
+                                <point x="0.5" y="0.446809" />
+                                <point x="0.67" y="0.351064" />
+                                <point x="0.99" y="0.138298" />
+                                <point x="0.79" y="0.776596" />
+                                <point x="0.3" y="0.93617" />
+                                <point x="0.31" y="0.670213" />
+                                <point x="0.13" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Owl1_W2B" pingpong="0" repeatcount="1" repeatto="0" sid="452840336030138" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.510204" original-source="C:\Users\le-cl\Desktop\Chouette\Sans titre - 2.png">
+                            <collision-poly>
+                                <point x="0.192982" y="0.44898" />
+                                <point x="0.5" y="0.44898" />
+                                <point x="0.921053" y="0.183673" />
+                                <point x="0.877193" y="0.489796" />
+                                <point x="0.798246" y="0.530612" />
+                                <point x="0.5" y="0.938776" />
+                                <point x="0.175439" y="0.591837" />
+                                <point x="0.0614035" y="0.489796" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Owl1_B2W" pingpong="0" repeatcount="1" repeatto="0" sid="561488852544845" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.510204">
+                            <collision-poly>
+                                <point x="0.192982" y="0.44898" />
+                                <point x="0.5" y="0.44898" />
+                                <point x="0.921053" y="0.183673" />
+                                <point x="0.877193" y="0.489796" />
+                                <point x="0.798246" y="0.530612" />
+                                <point x="0.5" y="0.938776" />
+                                <point x="0.175439" y="0.591837" />
+                                <point x="0.0614035" y="0.489796" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Owl2_W2B" pingpong="0" repeatcount="1" repeatto="0" sid="832688841813458" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.503145" original-source="C:\Users\le-cl\Desktop\Chouette\Sans titre - 4.png">
+                            <collision-poly>
+                                <point x="0.06" y="0.0377358" />
+                                <point x="0.5" y="0.0377358" />
+                                <point x="0.62" y="0.238994" />
+                                <point x="0.9" y="0.496855" />
+                                <point x="0.75" y="0.842767" />
+                                <point x="0.5" y="0.716981" />
+                                <point x="0.37" y="0.767296" />
+                                <point x="0.04" y="0.496855" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Owl2_B2W" pingpong="0" repeatcount="1" repeatto="0" sid="493774043027477" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.503145">
+                            <collision-poly>
+                                <point x="0.06" y="0.0377358" />
+                                <point x="0.5" y="0.0377358" />
+                                <point x="0.62" y="0.238994" />
+                                <point x="0.9" y="0.496855" />
+                                <point x="0.75" y="0.842767" />
+                                <point x="0.5" y="0.716981" />
+                                <point x="0.37" y="0.767296" />
+                                <point x="0.04" y="0.496855" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Snake_W2B" pingpong="0" repeatcount="1" repeatto="0" sid="306505315479240" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501109" original-source="C:\Users\le-cl\Desktop\Chouette\sss.png">
+                            <collision-poly>
+                                <point x="0.0778443" y="0.0576497" />
+                                <point x="0.5" y="0.00665188" />
+                                <point x="0.883234" y="0.0864745" />
+                                <point x="0.883233" y="0.4102" />
+                                <point x="0.404192" y="0.531042" />
+                                <point x="0.571857" y="0.687362" />
+                                <point x="0.890719" y="0.648559" />
+                                <point x="0.964072" y="0.906874" />
+                                <point x="0.523952" y="1" />
+                                <point x="0.10479" y="0.866962" />
+                                <point x="0.0299401" y="0.498891" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Snake_B2W" pingpong="0" repeatcount="1" repeatto="0" sid="956797390086913" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501109">
+                            <collision-poly>
+                                <point x="0.0239521" y="0.0731707" />
+                                <point x="0.5" y="0.00665188" />
+                                <point x="0.883234" y="0.0864745" />
+                                <point x="0.961078" y="0.317073" />
+                                <point x="0.45509" y="0.551552" />
+                                <point x="0.528443" y="0.692073" />
+                                <point x="0.871257" y="0.644124" />
+                                <point x="1" y="0.793792" />
+                                <point x="0.763473" y="0.988914" />
+                                <point x="0.215569" y="0.960089" />
+                                <point x="0.0149701" y="0.736142" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Snake1_W2B" pingpong="0" repeatcount="1" repeatto="0" sid="757233549514264" speed="5">
+                        <frame duration="1" hotspotX="0.500533" hotspotY="0.501299" original-source="C:\Users\le-cl\Downloads\3.png">
+                            <collision-poly>
+                                <point x="0.0181044" y="0.0441558" />
+                                <point x="0.336528" y="0.0337662" />
+                                <point x="0.601704" y="0.18961" />
+                                <point x="0.865815" y="0.051948" />
+                                <point x="0.994941" y="0.402597" />
+                                <point x="0.949414" y="0.976623" />
+                                <point x="0.85623" y="0.903896" />
+                                <point x="0.78754" y="0.577922" />
+                                <point x="0.636848" y="0.968831" />
+                                <point x="0.606497" y="0.453247" />
+                                <point x="0.340788" y="0.867532" />
+                                <point x="0.392971" y="0.357143" />
+                                <point x="0.15655" y="0.618182" />
+                                <point x="0.144835" y="0.498701" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Snake1_B2W" pingpong="0" repeatcount="1" repeatto="0" sid="406520326534043" speed="5">
+                        <frame duration="1" hotspotX="0.500533" hotspotY="0.501299" original-source="C:\Users\le-cl\Downloads\3.png">
+                            <collision-poly>
+                                <point x="0.0181044" y="0.0441558" />
+                                <point x="0.499468" y="0.228571" />
+                                <point x="0.927583" y="0.176623" />
+                                <point x="1" y="0.488311" />
+                                <point x="0.936635" y="0.993506" />
+                                <point x="0.792333" y="0.844156" />
+                                <point x="0.787008" y="0.54026" />
+                                <point x="0.632588" y="0.980519" />
+                                <point x="0.608094" y="0.441558" />
+                                <point x="0.354633" y="0.874026" />
+                                <point x="0.15655" y="0.618182" />
+                                <point x="0.144835" y="0.498701" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Snake2_W2B" pingpong="0" repeatcount="1" repeatto="0" sid="454159593867121" speed="5">
+                        <frame duration="1" hotspotX="0.500692" hotspotY="0.501053" original-source="C:\Users\le-cl\Downloads\4.png">
+                            <collision-poly>
+                                <point x="0.0608575" y="0.0926316" />
+                                <point x="0.499308" y="0.221053" />
+                                <point x="0.832642" y="0.254737" />
+                                <point x="0.984786" y="0.498947" />
+                                <point x="0.932227" y="0.896842" />
+                                <point x="0.499308" y="0.903158" />
+                                <point x="0.172891" y="0.736842" />
+                                <point x="0.160443" y="0.498947" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Snake2_B2W" pingpong="0" repeatcount="1" repeatto="0" sid="341369174343607" speed="5">
+                        <frame duration="1" hotspotX="0.500692" hotspotY="0.501053">
+                            <collision-poly>
+                                <point x="0.0608575" y="0.0926316" />
+                                <point x="0.499308" y="0.221053" />
+                                <point x="0.832642" y="0.254737" />
+                                <point x="0.984786" y="0.498947" />
+                                <point x="0.932227" y="0.896842" />
+                                <point x="0.499308" y="0.903158" />
+                                <point x="0.172891" y="0.736842" />
+                                <point x="0.160443" y="0.498947" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="DestinationText" sid="410014233663431">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Wave" sid="449035030162297">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="13" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="741911118920950" speed="10">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Controls">
+            <object-type name="Keyboard" sid="2275908601039902">
+                <plugin id="Keyboard" />
+            </object-type>
+            <object-type name="Mouse" sid="5525731072553054">
+                <plugin id="Mouse" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Background">
+            <object-type name="Scenery_Background" sid="604676511066483">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="712580268078812" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500218" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\LD\EXAMPLES\Sans titre - 2_01.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="618598522220265" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500218" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TiledBackground2" sid="774145342681231">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\le-cl\Desktop\Illustration_sans_titre_3.jpg" />
+            </object-type>
+            <object-type name="Background_GREY" sid="519391339510486">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="50" repeatto="0" sid="536289725360002" speed="6">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Background\Illustration_sans_titre 2.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Background_BLACK" sid="869450241720044">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="50" repeatto="0" sid="754896562520842" speed="6">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Background\Illustration_sans_titre.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="WaterEffect" sid="482316918872122">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="WarpMask">
+                        <effect id="warpmask" />
+                    </effect-type>
+                </effects>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="287276871759761" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Water" sid="977564243351867">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="179475119878326" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="PauseBackground" sid="965326950389415">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="381950286408682" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Player">
+            <object-type name="Player" sid="5064882008310427">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="IsWhite" sid="6434340732661149" type="boolean" />
+                    <instance-variable name="IsGrappling" sid="3942008625812238" type="boolean" />
+                    <instance-variable name="grapplingPointX" sid="1108541588285152" type="number" />
+                    <instance-variable name="grapplingPointY" sid="4168535741731054" type="number" />
+                    <instance-variable name="desiredGravity" sid="885897174538067" type="number" />
+                    <instance-variable name="hasDezoomed" sid="226970120926013" type="boolean" />
+                    <instance-variable name="HasTool2" sid="822450199069885" type="boolean" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Platform" sid="9977602972373999">
+                        <behavior id="Platform" />
+                    </behavior-type>
+                    <behavior-type name="Solid" sid="865006413940762">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4140260648567028" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Kali" sid="497594714514375">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="546699732617447" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50014" original-source="F:\Users\dupont\Pictures\UI\TitleScreen_White.png">
+                            <collision-poly>
+                                <point x="0.142591" y="0.149902" />
+                                <point x="0.5" y="0.00140095" />
+                                <point x="0.847015" y="0.160829" />
+                                <point x="0.9992" y="0.49986" />
+                                <point x="0.896589" y="0.891286" />
+                                <point x="0.5" y="0.994676" />
+                                <point x="0.142324" y="0.850378" />
+                                <point x="0.0130597" y="0.49986" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Sound">
+            <object-type name="SoundManager" sid="783710838456426">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="LevelMusic" sid="668537242935409" type="string" />
+                    <instance-variable name="IsFading" sid="265231178601255" type="boolean" />
+                    <instance-variable name="fadingCurrentVolume" sid="635421628119156" type="number" />
+                    <instance-variable name="maxVolume" sid="594877035876407" type="number" />
+                    <instance-variable name="fadingVolumeIncrement" sid="348279599901326" type="number" />
+                    <instance-variable name="fadoutCurrentVolume" sid="128247965651051" type="number" />
+                    <instance-variable name="minVolume" sid="412227545052931" type="number" />
+                    <instance-variable name="MainMusicTag" sid="116838339518261" type="string" />
+                    <instance-variable name="IsFadout" sid="767050767708803" type="boolean" />
+                    <instance-variable name="fadoutVolumeIncrement" sid="364369104190875" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="405742125981332" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Jeanne Aubry\Downloads\musical-score.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="TransitionLevels">
+            <object-folder name="InPainting">
+                <object-type name="ZoomIn" sid="429827363171041">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="776668270117475" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="OutPainting" />
+        </object-folder>
+        <object-folder name="Credits">
+            <object-type name="SpriteCredit" sid="670813742909058">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="950695189175289" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BackCredits" sid="719473828270431">
+                <plugin id="Text" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Onde">
+            <object-type name="Onde" sid="533119940846143">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="isBlack" sid="735893926512647" type="boolean" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="60" loop="0" name="W2B" pingpong="0" repeatcount="1" repeatto="0" sid="304152198369624" speed="60">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30001.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30002.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30003.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30004.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30005.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30006.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30007.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30008.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30009.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30010.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30011.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30012.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30013.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30014.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30015.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30016.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30017.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30018.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30019.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30020.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30021.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30022.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30023.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30024.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30025.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30026.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30027.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30028.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30029.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30030.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30031.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30032.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30033.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30034.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30035.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30036.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30037.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30038.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30039.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30040.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30041.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30042.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30043.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30044.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30045.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30046.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30047.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30048.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30049.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30050.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30051.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30052.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30053.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30054.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30055.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30056.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30057.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30058.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30059.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\WhiteToBlack\Anim30060.png" />
+                    </animation>
+                    <animation framecount="60" loop="0" name="B2W" pingpong="0" repeatcount="1" repeatto="0" sid="469615023232514" speed="60">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0001.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0002.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0003.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0004.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0005.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0006.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0007.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0008.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0009.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0010.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0011.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0012.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0013.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0014.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0015.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0016.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0017.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0018.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0019.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0020.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0021.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0022.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0023.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0024.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0025.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0026.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0027.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0028.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0029.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0030.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0031.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0032.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0033.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0034.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0035.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0036.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0037.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0038.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0039.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0040.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0041.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0042.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0043.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0044.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0045.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0046.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0047.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0048.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0049.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0050.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0051.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0052.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0053.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0054.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0055.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0056.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0057.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0058.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0059.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\COURS\ARTLINE\B3\EXO\UV01\KALI\DA\Animation_Onde\BlackToWhite\BlackToWhite0060.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Options">
+            <object-type name="BackOptions" sid="865164512284634">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="BlastWave" sid="705748386212137">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Jump" sid="154345333124562">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Controls" sid="223007746837682">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="RightTxt" sid="836783151513382">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="LeftTxt" sid="438739195799343">
+                <plugin id="Text" />
+            </object-type>
+        </object-folder>
+        <object-type name="Browser" sid="1369905628446949">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="Function" sid="888677615413636">
+            <plugin id="Function" />
+        </object-type>
+        <object-type global="1" name="Array" sid="173797878582807">
+            <plugin id="Arr" />
+            <instance-variables>
+                <instance-variable name="LevelFinish" sid="428522673381785" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="Button" sid="870957146427698">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Audio" sid="714426197726689">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Outils1" sid="997697471585685">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="606320724684070" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text2" sid="816379799366541">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Options" sid="616156845079853">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TiledBackground" sid="606845305814903">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\le-cl\Desktop\Illustration_sans_titre_3.jpg" />
+        </object-type>
+        <object-type name="TiledBackground3" sid="972134635254584">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\le-cl\Desktop\Illustration_sans_titre_3.jpg" />
+        </object-type>
+        <object-type name="SansTitre3" sid="600954110019542">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="153458490618064">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="929039841414628" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Sans titre - 7.png">
+                        <collision-poly>
+                            <point x="0.01" y="0.0106383" />
+                            <point x="0.5" y="0.446809" />
+                            <point x="0.67" y="0.351064" />
+                            <point x="0.79" y="0.5" />
+                            <point x="0.79" y="0.776596" />
+                            <point x="0.5" y="0.968085" />
+                            <point x="0.31" y="0.670213" />
+                            <point x="0.13" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground4" sid="756512871387395">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\le-cl\Desktop\Illustration_sans_titre_3.jpg" />
+        </object-type>
+        <object-type name="TiledBackground5" sid="350141033655086">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\le-cl\Desktop\Illustration_sans_titre_3.jpg" />
+        </object-type>
+        <object-type name="Text" sid="781291324155868">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="IMG_" sid="837204817919239">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="638965059823910" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\le-cl\Downloads\IMG_0062.JPG" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="Family1" plugin-id="Sprite" sid="964374175173146">
+            <members>
+                <member>Destination</member>
+            </members>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>LD_MODEL.xml</layout>
+        <layout>WinScreen.xml</layout>
+        <layout>Level_0.xml</layout>
+        <layout>Level_1.xml</layout>
+        <layout>Level_2.xml</layout>
+        <layout>Level_3.xml</layout>
+        <layout>Level_4.1.xml</layout>
+        <layout>Level_4.2.xml</layout>
+        <layout>Level_4.4.xml</layout>
+        <layout>Level_4.3.xml</layout>
+        <layout>Credits.xml</layout>
+        <layout>Tittle Screen.xml</layout>
+        <layout>Level Select.xml</layout>
+        <layout>Options.xml</layout>
+        <layout>Level_2.1.xml</layout>
+        <layout>Level_2.2.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Eventsheet_LD_MODEL.xml</event-sheet>
+        <event-sheet>Eventsheet_WinsScreen.xml</event-sheet>
+        <event-sheet>Event sheetTittleScreen.xml</event-sheet>
+        <event-sheet>Event sheetLevelSelect.xml</event-sheet>
+        <event-sheet>Event Sheet Credit.xml</event-sheet>
+        <event-sheet>Event sheet Options.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="4" />
+        <global-instance type="Keyboard" uid="7" />
+        <global-instance type="Browser" uid="8" />
+        <global-instance type="Function" uid="20" />
+        <global-instance type="Audio" uid="230">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="bright-night.m4a" />
+        <file name="bright-night.ogg" />
+        <file name="hugo-kant-out-of-time.m4a" />
+        <file name="hugo-kant-out-of-time.ogg" />
+        <file name="icarus.m4a" />
+        <file name="icarus.ogg" />
+        <file name="imfinenow-you-and-i.m4a" />
+        <file name="imfinenow-you-and-i.ogg" />
+        <file name="hugo-kant-low-gravity.ogg" />
+        <file name="sIGUR.ogg" />
+        <file name="dARK.ogg" />
+        <file name="Onde.m4a" />
+        <file name="Onde.ogg" />
+        <file name="Emotional Dark Music - The Eternal Forest.ogg" />
+        <file name="hugo-kant-the-eye.m4a" />
+        <file name="hugo-kant-the-eye.ogg" />
+        <file name="nymano-douceur-ft-saib.m4a" />
+        <file name="nymano-douceur-ft-saib.ogg" />
+        <file name="hugo-kant-emi.m4a" />
+        <file name="hugo-kant-emi.ogg" />
+        <file name="biosphere-aria-for-our-dreams.m4a" />
+        <file name="biosphere-aria-for-our-dreams.ogg" />
+        <file name="kendall-miles-youth.m4a" />
+        <file name="kendall-miles-youth.ogg" />
+        <file name="EMI_SHORTER.m4a" />
+        <file name="EMI_SHORTER.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheetTittleScreen</name>
+    <events>
+        <event-block sid="542413353470711">
+            <conditions>
+                <condition id="0" name="Compare at X" sid="396734847820144" type="Array">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Uncomplete&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="3" name="Set enabled" sid="342861429887024" type="ButtonLevelselect">
+                    <param id="0" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="156922534861296">
+            <conditions>
+                <condition id="0" name="On clicked" sid="651070429728351" type="Button" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="334784736126444" type="System">
+                    <param id="0" name="Layout">Level Select</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="203989260249021">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="473223098678361" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Start</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="664240125809829" type="System">
+                    <param id="0" name="Layout">Level_0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="284982058154672">
+            <conditions>
+                <condition id="0" name="Compare at X" sid="630458160525640" type="Array">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;Complete&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="429564796435828" type="LevelSelect">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="3" name="Set enabled" sid="663797582992087" type="Button">
+                    <param id="0" name="Mode">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="149233305072184">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="689070910266140" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Credits</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="634168416988264" type="System">
+                    <param id="0" name="Layout">Credits</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="920676765936150">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="381766044010486" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Options</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
