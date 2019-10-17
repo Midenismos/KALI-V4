@@ -1588,6 +1588,30 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="962026551804575">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="666825987608081" type="Keyboard">
+                            <param id="0" name="Key">37</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="610011811904892" type="Player">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="985159117114109">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="842688799040734" type="Keyboard">
+                            <param id="0" name="Key">39</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="431265905565885" type="Player">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
     </events>

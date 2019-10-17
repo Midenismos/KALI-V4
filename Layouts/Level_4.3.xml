@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
     <name>Level_4.3</name>
-    <sid>213743384384393</sid>
+    <sid>729449467262427</sid>
     <event-sheet>Eventsheet_LD_MODEL</event-sheet>
     <size>
         <width>3700</width>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="BackGound" sid="393139540893460">
+        <layer name="BackGound" sid="388324678117318">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Ground" uid="654">
+                <instance type="Ground" uid="354">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -58,7 +58,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Background_GREY" uid="655">
+                <instance type="Background_GREY" uid="507">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -68,8 +68,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1800</x>
-                        <y>1255</y>
+                        <x>1795</x>
+                        <y>1250</y>
                         <z>0</z>
                         <width>4000</width>
                         <height>3000</height>
@@ -80,7 +80,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Ground" uid="656">
+                <instance type="Ground" uid="603">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -109,7 +109,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Ground" uid="657">
+                <instance type="Ground" uid="604">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -141,7 +141,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Block Noir" sid="280383791217898">
+        <layer name="Block Noir" sid="471270817886950">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -157,7 +157,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="AnimationStatesBloc" uid="658">
+                <instance type="AnimationStatesBloc" uid="339">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Triangle_W2B</initial-animation>
@@ -190,7 +190,172 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="666">
+                <instance type="AnimationStatesBloc" uid="355">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>true</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-591</x>
+                        <y>1116</y>
+                        <z>0</z>
+                        <width>456</width>
+                        <height>2769</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.6569857</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="362">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>true</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>730</x>
+                        <y>2982</y>
+                        <z>0</z>
+                        <width>456</width>
+                        <height>2769</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.219796598</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="363">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>true</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2113</x>
+                        <y>3011</y>
+                        <z>0</z>
+                        <width>456</width>
+                        <height>2769</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-0.078633435</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="366">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>true</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>3090</x>
+                        <y>-73</y>
+                        <z>0</z>
+                        <width>225</width>
+                        <height>5000</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-2.951234102</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="371">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>true</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2855</x>
+                        <y>3385</y>
+                        <z>0</z>
+                        <width>456</width>
+                        <height>2769</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.46031487</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="372">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Triangle_W2B</initial-animation>
@@ -211,8 +376,74 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>368</x>
-                        <y>-669</y>
+                        <x>3810</x>
+                        <y>2180</y>
+                        <z>0</z>
+                        <width>344</width>
+                        <height>2326</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-1.075545311</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="367">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>true</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>267</x>
+                        <y>1333</y>
+                        <z>0</z>
+                        <width>313</width>
+                        <height>3783</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>1.599654913</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="43">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>true</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>629</x>
+                        <y>-628</y>
                         <z>0</z>
                         <width>640</width>
                         <height>643</height>
@@ -223,7 +454,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Onde" uid="667">
+                <instance type="Onde" uid="72">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>B2W</initial-animation>
@@ -248,205 +479,7 @@
                         <opacity>0.699999988</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="659">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Snake_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Snake</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>553</x>
-                        <y>394</y>
-                        <z>0</z>
-                        <width>775.306396484</width>
-                        <height>1046.895751953</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.501108646</hotspotY>
-                        <angle>-1.57079649</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="661">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-702</x>
-                        <y>1900</y>
-                        <z>0</z>
-                        <width>640</width>
-                        <height>643</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-3.008842707</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="662">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1035</x>
-                        <y>2070</y>
-                        <z>0</z>
-                        <width>579</width>
-                        <height>387</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0.003142066</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="663">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1217</x>
-                        <y>1111</y>
-                        <z>0</z>
-                        <width>92</width>
-                        <height>532</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>2.397346258</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="668">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>76</x>
-                        <y>-234</y>
-                        <z>0</z>
-                        <width>640</width>
-                        <height>643</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-3.064927816</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="670">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Snake_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Snake</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1847</x>
-                        <y>-306</y>
-                        <z>0</z>
-                        <width>713.887329102</width>
-                        <height>963.961608887</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.501108646</hotspotY>
-                        <angle>-1.950226307</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="672">
+                <instance type="AnimationStatesBloc" uid="526">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Square_W2B</initial-animation>
@@ -467,52 +500,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>565</x>
-                        <y>925</y>
+                        <x>0</x>
+                        <y>362</y>
                         <z>0</z>
-                        <width>1343</width>
-                        <height>82</height>
+                        <width>2910</width>
+                        <height>190</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>3.141592741</angle>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="675">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>459</x>
-                        <y>1101</y>
-                        <z>0</z>
-                        <width>92</width>
-                        <height>532</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-2.339242458</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="677">
+                <instance type="AnimationStatesBloc" uid="528">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Square_W2B</initial-animation>
@@ -533,11 +533,77 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>651</x>
-                        <y>2262</y>
+                        <x>0</x>
+                        <y>705</y>
                         <z>0</z>
-                        <width>1343</width>
-                        <height>82</height>
+                        <width>2910</width>
+                        <height>190</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="529">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Square_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>true</isBlack>
+                        <shapeName>Square</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1820</x>
+                        <y>-665</y>
+                        <z>0</z>
+                        <width>2910</width>
+                        <height>190</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>1.570796371</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="530">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>true</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>81</x>
+                        <y>962</y>
+                        <z>0</z>
+                        <width>640</width>
+                        <height>643</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -545,7 +611,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="669">
+                <instance type="AnimationStatesBloc" uid="531">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Triangle_W2B</initial-animation>
@@ -566,19 +632,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>352</x>
-                        <y>2884</y>
+                        <x>1139</x>
+                        <y>1007</y>
                         <z>0</z>
                         <width>640</width>
                         <height>643</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>2.069127321</angle>
+                        <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="681">
+                <instance type="AnimationStatesBloc" uid="539">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Triangle_W2B</initial-animation>
@@ -599,94 +665,28 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>563</x>
-                        <y>2520</y>
+                        <x>3459</x>
+                        <y>737</y>
                         <z>0</z>
-                        <width>93</width>
-                        <height>120</height>
+                        <width>640</width>
+                        <height>643</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0.163037091</angle>
+                        <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="680">
+                <instance type="AnimationStatesBloc" uid="538">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>932</x>
-                        <y>2300</y>
-                        <z>0</z>
-                        <width>93</width>
-                        <height>120</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>2.699026346</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="684">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2576</x>
-                        <y>2506</y>
-                        <z>0</z>
-                        <width>170</width>
-                        <height>1339</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-0.890846729</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="687">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-animation>Square_W2B</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
                         <isBlack>false</isBlack>
-                        <shapeName>Triangle</shapeName>
+                        <shapeName>Square</shapeName>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -698,52 +698,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3574</x>
-                        <y>386</y>
+                        <x>3566</x>
+                        <y>337</y>
                         <z>0</z>
-                        <width>170</width>
-                        <height>1339</height>
+                        <width>876</width>
+                        <height>190</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-2.451158762</angle>
+                        <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="688">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1378</x>
-                        <y>2946</y>
-                        <z>0</z>
-                        <width>170</width>
-                        <height>1339</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-0.291671127</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="691">
+                <instance type="AnimationStatesBloc" uid="542">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Square_W2B</initial-animation>
@@ -764,11 +731,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3033</x>
-                        <y>1964</y>
+                        <x>3029.5</x>
+                        <y>1510</y>
                         <z>0</z>
                         <width>1343</width>
-                        <height>82</height>
+                        <height>190</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -776,40 +743,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="692">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Square_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Square</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2398</x>
-                        <y>989</y>
-                        <z>0</z>
-                        <width>2014</width>
-                        <height>82</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>1.570796371</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="693">
+                <instance type="AnimationStatesBloc" uid="543">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Triangle_W2B</initial-animation>
@@ -830,110 +764,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1762</x>
-                        <y>1902</y>
+                        <x>2967</x>
+                        <y>1114</y>
                         <z>0</z>
-                        <width>170</width>
-                        <height>1339</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-1.57079649</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="694">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>3758</x>
-                        <y>2019</y>
-                        <z>0</z>
-                        <width>170</width>
-                        <height>1339</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-2.110617638</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="695">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2195</x>
-                        <y>840</y>
-                        <z>0</z>
-                        <width>92</width>
-                        <height>532</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-2.402240038</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="671">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Square_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Square</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1796.5</x>
-                        <y>34</y>
-                        <z>0</z>
-                        <width>1256</width>
-                        <height>82</height>
+                        <width>640</width>
+                        <height>643</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -941,139 +776,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="698">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1522</x>
-                        <y>845</y>
-                        <z>0</z>
-                        <width>107</width>
-                        <height>992</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>2.397346258</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="718">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2975</x>
-                        <y>2982</y>
-                        <z>0</z>
-                        <width>170</width>
-                        <height>1339</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-0.244189918</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="720">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2827</x>
-                        <y>-379</y>
-                        <z>0</z>
-                        <width>545</width>
-                        <height>1169</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-3.130831718</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="721">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>3452</x>
-                        <y>-389</y>
-                        <z>0</z>
-                        <width>545</width>
-                        <height>1169</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-3.130831718</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="723">
+                <instance type="AnimationStatesBloc" uid="620">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Square_W2B</initial-animation>
@@ -1094,220 +797,22 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3132</x>
-                        <y>980.999938965</y>
+                        <x>2773</x>
+                        <y>3589</y>
                         <z>0</z>
-                        <width>1092</width>
-                        <height>82</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>3.141592741</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="724">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>731</x>
-                        <y>-102</y>
-                        <z>0</z>
-                        <width>92</width>
-                        <height>532</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-2.402240038</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="726">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Square_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Square</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>3132.5</x>
-                        <y>39</y>
-                        <z>0</z>
-                        <width>1133</width>
-                        <height>82</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>3.141592741</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="730">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2500</x>
-                        <y>292</y>
-                        <z>0</z>
-                        <width>164</width>
-                        <height>2853</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-3.130831718</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="731">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Square_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Square</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>583</x>
-                        <y>-33</y>
-                        <z>0</z>
-                        <width>1256</width>
-                        <height>82</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="732">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Square_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Square</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-12</x>
-                        <y>561</y>
-                        <z>0</z>
-                        <width>1256</width>
-                        <height>82</height>
+                        <width>2910</width>
+                        <height>190</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>1.570796371</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="727">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>true</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2069</x>
-                        <y>1764</y>
-                        <z>0</z>
-                        <width>56</width>
-                        <height>755</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-0.981519282</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>
             <effects />
         </layer>
-        <layer name="Block Blanc" sid="247959604737524">
+        <layer name="Block Blanc" sid="407602771661692">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -1323,7 +828,238 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Onde" uid="685">
+                <instance type="AnimationStatesBloc" uid="340">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>false</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-481</x>
+                        <y>-247</y>
+                        <z>0</z>
+                        <width>545</width>
+                        <height>1169</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>3.088237762</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="359">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>false</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1377</x>
+                        <y>-66</y>
+                        <z>0</z>
+                        <width>344</width>
+                        <height>2326</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-2.089642286</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="360">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>false</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>122</x>
+                        <y>2929</y>
+                        <z>0</z>
+                        <width>344</width>
+                        <height>2326</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.281003982</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="361">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>false</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1749</x>
+                        <y>2952</y>
+                        <z>0</z>
+                        <width>344</width>
+                        <height>2326</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-0.253919363</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="364">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>false</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>3895.978515625</x>
+                        <y>1207.510009766</y>
+                        <z>0</z>
+                        <width>279</width>
+                        <height>1944</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-2.089642286</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="365">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>false</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1625</x>
+                        <y>658</y>
+                        <z>0</z>
+                        <width>313</width>
+                        <height>3783</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-2.089642286</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="370">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>false</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>4069</x>
+                        <y>1755</y>
+                        <z>0</z>
+                        <width>344</width>
+                        <height>3036</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-2.089642286</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Onde" uid="71">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>B2W</initial-animation>
@@ -1336,8 +1072,8 @@
                     <blend-mode>8</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>8774</x>
-                        <y>2390</y>
+                        <x>8610</x>
+                        <y>1320</y>
                         <z>0</z>
                         <width>9000</width>
                         <height>9000</height>
@@ -1348,7 +1084,7 @@
                         <opacity>0.699999988</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="678">
+                <instance type="AnimationStatesBloc" uid="465">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Triangle_W2B</initial-animation>
@@ -1369,118 +1105,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>374</x>
-                        <y>2320</y>
+                        <x>5025</x>
+                        <y>-52</y>
                         <z>0</z>
-                        <width>93</width>
-                        <height>120</height>
+                        <width>313</width>
+                        <height>3783</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>2.699026346</angle>
+                        <angle>-2.089642286</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="660">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>false</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-764</x>
-                        <y>1087</y>
-                        <z>0</z>
-                        <width>640</width>
-                        <height>643</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0.149612606</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="665">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Snake_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>false</isBlack>
-                        <shapeName>Snake</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>3685</x>
-                        <y>2740</y>
-                        <z>0</z>
-                        <width>713.887329102</width>
-                        <height>963.961608887</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.501108646</hotspotY>
-                        <angle>-0.06633544</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="664">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>false</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-578</x>
-                        <y>2632</y>
-                        <z>0</z>
-                        <width>640</width>
-                        <height>643</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-2.003019571</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="679">
+                <instance type="AnimationStatesBloc" uid="527">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Square_W2B</initial-animation>
@@ -1501,118 +1138,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>31</x>
-                        <y>1565</y>
+                        <x>460</x>
+                        <y>535</y>
                         <z>0</z>
-                        <width>1343</width>
-                        <height>82</height>
+                        <width>2910</width>
+                        <height>190</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-1.57079649</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="682">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>false</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>788</x>
-                        <y>2510</y>
-                        <z>0</z>
-                        <width>93</width>
-                        <height>120</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0.163037091</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="683">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Square_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>false</isBlack>
-                        <shapeName>Square</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>646</x>
-                        <y>2252</y>
-                        <z>0</z>
-                        <width>1343</width>
-                        <height>82</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>3.141592741</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="676">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Snake1_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>false</isBlack>
-                        <shapeName>Snack</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1849</x>
-                        <y>2479</y>
-                        <z>0</z>
-                        <width>939</width>
-                        <height>385</height>
-                        <depth>0</depth>
-                        <hotspotX>0.500532508</hotspotX>
-                        <hotspotY>0.501298726</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="673">
+                <instance type="AnimationStatesBloc" uid="534">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Square_W2B</initial-animation>
@@ -1620,7 +1158,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <isBlack>false</isBlack>
+                        <isBlack>true</isBlack>
                         <shapeName>Square</shapeName>
                     </instance-variables>
                     <behavior-instances>
@@ -1633,143 +1171,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1185</x>
-                        <y>290</y>
+                        <x>95.00012207</x>
+                        <y>2985</y>
                         <z>0</z>
-                        <width>1343</width>
-                        <height>82</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-1.57079649</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="674">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>false</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1350</x>
-                        <y>220</y>
-                        <z>0</z>
-                        <width>92</width>
-                        <height>532</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>2.397346258</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="686">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>false</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>3661</x>
-                        <y>1533</y>
-                        <z>0</z>
-                        <width>170</width>
-                        <height>1339</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-2.110617638</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="689">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Snake2_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>false</isBlack>
-                        <shapeName>Snake</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>3195</x>
-                        <y>1441</y>
-                        <z>0</z>
-                        <width>890.702941895</width>
-                        <height>585.178283691</height>
-                        <depth>0</depth>
-                        <hotspotX>0.500691593</hotspotX>
-                        <hotspotY>0.501052618</hotspotY>
-                        <angle>-0.702574492</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="690">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Square_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>false</isBlack>
-                        <shapeName>Square</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2608</x>
-                        <y>994.5</y>
-                        <z>0</z>
-                        <width>2014</width>
-                        <height>82</height>
+                        <width>3000</width>
+                        <height>190</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1777,73 +1183,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="696">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Snake1_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>false</isBlack>
-                        <shapeName>Snack</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>4035</x>
-                        <y>764</y>
-                        <z>0</z>
-                        <width>939</width>
-                        <height>385</height>
-                        <depth>0</depth>
-                        <hotspotX>0.500532508</hotspotX>
-                        <hotspotY>0.501298726</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="697">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Snake1_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>false</isBlack>
-                        <shapeName>Snack</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-266</x>
-                        <y>1773</y>
-                        <z>0</z>
-                        <width>939</width>
-                        <height>385</height>
-                        <depth>0</depth>
-                        <hotspotX>0.500532508</hotspotX>
-                        <hotspotY>0.501298726</hotspotY>
-                        <angle>2.492242098</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="699">
+                <instance type="AnimationStatesBloc" uid="535">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Square_W2B</initial-animation>
@@ -1864,143 +1204,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3660.5</x>
-                        <y>997.5</y>
+                        <x>1234</x>
+                        <y>2833</y>
                         <z>0</z>
-                        <width>1999</width>
-                        <height>87</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>1.570796371</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="700">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>false</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>774</x>
-                        <y>1858</y>
-                        <z>0</z>
-                        <width>60</width>
-                        <height>1309</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-0.890846729</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="719">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>false</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>3108</x>
-                        <y>2849</y>
-                        <z>0</z>
-                        <width>170</width>
-                        <height>1339</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-0.244189918</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="550">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>false</isBlack>
-                        <shapeName>Triangle</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>3150</x>
-                        <y>-97</y>
-                        <z>0</z>
-                        <width>545</width>
-                        <height>1169</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-3.130831718</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="AnimationStatesBloc" uid="722">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Square_W2B</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <isBlack>false</isBlack>
-                        <shapeName>Square</shapeName>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Disabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1209.5</x>
-                        <y>1405.999755859</y>
-                        <z>0</z>
-                        <width>2418</width>
-                        <height>82</height>
+                        <width>5173</width>
+                        <height>190</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -2008,16 +1216,16 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="725">
+                <instance type="AnimationStatesBloc" uid="537">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-animation>Square_W2B</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
                         <isBlack>false</isBlack>
-                        <shapeName>Triangle</shapeName>
+                        <shapeName>Square</shapeName>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
@@ -2029,19 +1237,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-94</x>
-                        <y>631</y>
+                        <x>1976</x>
+                        <y>-98</y>
                         <z>0</z>
-                        <width>92</width>
-                        <height>532</height>
+                        <width>5173</width>
+                        <height>190</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>2.389811039</angle>
+                        <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="728">
+                <instance type="AnimationStatesBloc" uid="540">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Triangle_W2B</initial-animation>
@@ -2062,19 +1270,52 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2217.302246094</x>
-                        <y>1272.974243164</y>
+                        <x>2607</x>
+                        <y>737</y>
                         <z>0</z>
-                        <width>54</width>
-                        <height>445</height>
+                        <width>640</width>
+                        <height>643</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>-0.981519282</angle>
+                        <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="729">
+                <instance type="AnimationStatesBloc" uid="541">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Square_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>false</isBlack>
+                        <shapeName>Square</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2714</x>
+                        <y>337</y>
+                        <z>0</z>
+                        <width>876</width>
+                        <height>190</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>3.141592741</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="544">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Triangle_W2B</initial-animation>
@@ -2095,22 +1336,253 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1431.388305664</x>
-                        <y>1610.613525391</y>
+                        <x>4621</x>
+                        <y>2171</y>
                         <z>0</z>
-                        <width>57</width>
-                        <height>592</height>
+                        <width>344</width>
+                        <height>2326</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>2.417564631</angle>
+                        <angle>-1.210636735</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="533">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>false</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>684</x>
+                        <y>1807</y>
+                        <z>0</z>
+                        <width>640</width>
+                        <height>643</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>3.141592741</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="532">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Square_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>false</isBlack>
+                        <shapeName>Square</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>603</x>
+                        <y>1414</y>
+                        <z>0</z>
+                        <width>2910</width>
+                        <height>190</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="536">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>false</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1483</x>
+                        <y>1782</y>
+                        <z>0</z>
+                        <width>640</width>
+                        <height>643</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>3.141592741</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="565">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Square_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>false</isBlack>
+                        <shapeName>Square</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2301</x>
+                        <y>2832</y>
+                        <z>0</z>
+                        <width>2910</width>
+                        <height>190</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>1.570796371</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="508">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Square_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>false</isBlack>
+                        <shapeName>Square</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2537</x>
+                        <y>3794</y>
+                        <z>0</z>
+                        <width>2910</width>
+                        <height>190</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>1.570796371</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="621">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Square_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>false</isBlack>
+                        <shapeName>Square</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>3009</x>
+                        <y>3384</y>
+                        <z>0</z>
+                        <width>2910</width>
+                        <height>190</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>1.570796371</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="AnimationStatesBloc" uid="631">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Triangle_W2B</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <isBlack>false</isBlack>
+                        <shapeName>Triangle</shapeName>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Disabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2526</x>
+                        <y>1566</y>
+                        <z>0</z>
+                        <width>156</width>
+                        <height>600</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>1.834490776</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>
             <effects />
         </layer>
-        <layer name="JOUEUR" sid="337538669385091">
+        <layer name="JOUEUR" sid="895684646673561">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -2126,55 +1598,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Destination" uid="703">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <KeyRequired>3</KeyRequired>
-                        <LevelNumber>7</LevelNumber>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1867</x>
-                        <y>703</y>
-                        <z>0</z>
-                        <width>329.191131592</width>
-                        <height>270.698394775</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.50053823</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="LightCone" uid="706">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1955</x>
-                        <y>825</y>
-                        <z>0</z>
-                        <width>575.892822266</width>
-                        <height>911.711242676</height>
-                        <depth>0</depth>
-                        <hotspotX>0.64267993</hotspotX>
-                        <hotspotY>0.496865213</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Player" uid="701">
+                <instance type="Player" uid="332">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2214,8 +1638,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>620</x>
-                        <y>282</y>
+                        <x>67</x>
+                        <y>68</y>
                         <z>0</z>
                         <width>133.08644104</width>
                         <height>133.08644104</height>
@@ -2226,7 +1650,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Key" uid="702">
+                <instance type="Key" uid="337">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2239,8 +1663,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2212</x>
-                        <y>1700</y>
+                        <x>-82</x>
+                        <y>-435</y>
                         <z>0</z>
                         <width>250</width>
                         <height>250</height>
@@ -2251,7 +1675,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Key" uid="704">
+                <instance type="Destination" uid="353">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2259,44 +1683,92 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <currentKey>0</currentKey>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>109</x>
-                        <y>2404</y>
-                        <z>0</z>
-                        <width>250</width>
-                        <height>250</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Key" uid="705">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <currentKey>0</currentKey>
+                        <KeyRequired>2</KeyRequired>
+                        <LevelNumber>7</LevelNumber>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>3557</x>
-                        <y>1801</y>
+                        <y>2388</y>
+                        <z>0</z>
+                        <width>329.191131592</width>
+                        <height>270.698394775</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.50053823</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Key" uid="368">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <currentKey>0</currentKey>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>539</x>
+                        <y>2384</y>
                         <z>0</z>
                         <width>250</width>
                         <height>250</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Key" uid="369">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <currentKey>0</currentKey>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2948</x>
+                        <y>1324</y>
+                        <z>0</z>
+                        <width>250</width>
+                        <height>250</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LightCone" uid="633">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>3634</x>
+                        <y>2566</y>
+                        <z>0</z>
+                        <width>575.892822266</width>
+                        <height>911.711242676</height>
+                        <depth>0</depth>
+                        <hotspotX>0.64267993</hotspotX>
+                        <hotspotY>0.496865213</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -2304,7 +1776,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="HUD" sid="765277144158159">
+        <layer name="HUD" sid="619912638209867">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -2320,7 +1792,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="PauseBackground" uid="707">
+                <instance type="PauseBackground" uid="606">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2342,7 +1814,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="708">
+                <instance type="Sprite" uid="348">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2376,7 +1848,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Pause" uid="709">
+                <instance type="Pause" uid="349">
                     <properties>
                         <text>Pause</text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -2403,7 +1875,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Exit" uid="710">
+                <instance type="Exit" uid="350">
                     <properties>
                         <text>Exit</text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -2430,7 +1902,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Retry" uid="711">
+                <instance type="Retry" uid="351">
                     <properties>
                         <text>Retry</text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -2457,7 +1929,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Continue" uid="712">
+                <instance type="Continue" uid="352">
                     <properties>
                         <text>Continue</text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -2484,7 +1956,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="713">
+                <instance type="AnimationStatesBloc" uid="357">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Square_W2B</initial-animation>
@@ -2517,7 +1989,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="714">
+                <instance type="AnimationStatesBloc" uid="358">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Square_W2B</initial-animation>
@@ -2550,7 +2022,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnimationStatesBloc" uid="715">
+                <instance type="AnimationStatesBloc" uid="44">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Square_B2W</initial-animation>
@@ -2583,7 +2055,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Held_Tool_2" uid="717">
+                <instance type="Held_Tool_2" uid="626">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2608,7 +2080,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SoundManager" uid="586">
+                <instance type="SoundManager" uid="716">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2616,22 +2088,22 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <LevelMusic>Emotional Dark Music - The Eternal Forest</LevelMusic>
+                        <LevelMusic>dARK</LevelMusic>
                         <IsFading>true</IsFading>
                         <fadingCurrentVolume>-30</fadingCurrentVolume>
                         <maxVolume>-10</maxVolume>
                         <fadingVolumeIncrement>0.33333</fadingVolumeIncrement>
                         <fadoutCurrentVolume>0</fadoutCurrentVolume>
                         <minVolume>-30</minVolume>
-                        <MainMusicTag>main_6</MainMusicTag>
+                        <MainMusicTag>main_7</MainMusicTag>
                         <IsFadout>true</IsFadout>
                         <fadoutVolumeIncrement>-0.17</fadoutVolumeIncrement>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4243</x>
-                        <y>-526</y>
+                        <x>4381</x>
+                        <y>-572</y>
                         <z>0</z>
                         <width>512</width>
                         <height>512</height>
