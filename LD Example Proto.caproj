@@ -836,12 +836,10 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="2" loop="0" name="Square_W2B" pingpong="0" repeatcount="1" repeatto="0" sid="976456682406759" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <animation framecount="1" loop="0" name="Square_W2B" pingpong="0" repeatcount="1" repeatto="0" sid="976456682406759" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
-                    <animation framecount="2" loop="0" name="Square_B2W" pingpong="0" repeatcount="1" repeatto="0" sid="293314004558791" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <animation framecount="1" loop="0" name="Square_B2W" pingpong="0" repeatcount="1" repeatto="0" sid="293314004558791" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                     <animation framecount="1" loop="0" name="Fish_W2B" pingpong="0" repeatcount="1" repeatto="0" sid="246924172856548" speed="5">
