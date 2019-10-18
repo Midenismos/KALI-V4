@@ -23,11 +23,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="Joueur" />
+    <active-layer name="BlocNd" />
     <layers>
         <layer locked="0" name="Background" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="White" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Black" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="BlocNd" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Joueur" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Other_Bricks" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Tool_1" parallax-in-editor="0" visible="1" />

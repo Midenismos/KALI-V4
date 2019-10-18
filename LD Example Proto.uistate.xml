@@ -18,12 +18,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="5">Level_4.1</layout>
         <layout order="6">Level_4.2</layout>
         <layout order="7">Level_4.3</layout>
-        <layout order="8">Level_4.4</layout>
+        <layout active="1" order="8">Level_4.4</layout>
         <layout order="9">Options</layout>
         <layout order="11">LD_MODEL</layout>
         <layout order="12">Credits</layout>
         <event-sheet order="10">Event sheet Options</event-sheet>
-        <event-sheet active="1" order="13">Eventsheet_LD_MODEL</event-sheet>
+        <event-sheet order="13">Eventsheet_LD_MODEL</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -129,5 +129,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Outils1/" />
         <folder expanded="1" path="animation-folder/SansTitre3/" />
         <folder expanded="1" path="animation-folder/IMG_/" />
+        <folder expanded="1" path="animation-folder/PhraseNd4_2/" />
+        <folder expanded="1" path="animation-folder/BlocND1/" />
+        <folder expanded="1" path="animation-folder/BlocND2/" />
+        <folder expanded="1" path="animation-folder/BlocND3/" />
+        <folder expanded="1" path="animation-folder/BlocND4/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/TexteLD4_3/" />
+        <folder expanded="1" path="animation-folder/BlocND5/" />
+        <folder expanded="1" path="animation-folder/BlocND6/" />
+        <folder expanded="1" path="animation-folder/TexteND4_1/" />
+        <folder expanded="1" path="animation-folder/BlocND7/" />
+        <folder expanded="1" path="animation-folder/BlocND8/" />
+        <folder expanded="1" path="animation-folder/SansTitre/" />
     </folders-expanded>
 </c2uistate>

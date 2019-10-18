@@ -1545,6 +1545,167 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="PhraseNd4_2" sid="515705166410303">
+            <plugin id="Sprite" />
+            <effects>
+                <effect-type name="Noise">
+                    <effect id="noise" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="114152578749096" speed="5">
+                    <frame duration="1" hotspotX="0.500226" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Sans titre - 2.png">
+                        <collision-poly>
+                            <point x="0.00860118" y="0.109195" />
+                            <point x="0.499774" y="0" />
+                            <point x="0.991852" y="0.103448" />
+                            <point x="0.991399" y="0.890805" />
+                            <point x="0.499774" y="1" />
+                            <point x="0.00860118" y="0.890805" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BlocND1" sid="991402908465288">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="781290084047091" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BlocND2" sid="492533379815242">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="843670241066016" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BlocND3" sid="940575040198639">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="248829779896850" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BlocND4" sid="134322776242816">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="744662510345474" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="592558550231539">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="719666278920103" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TexteLD4_3" sid="380680666782034">
+            <plugin id="Sprite" />
+            <effects>
+                <effect-type name="Noise">
+                    <effect id="noise" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="723551896143191" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Sans titre - 3.png">
+                        <collision-poly>
+                            <point x="0.0116505" y="0.0689655" />
+                            <point x="0.5" y="0" />
+                            <point x="0.988349" y="0.0689655" />
+                            <point x="1" y="0.5" />
+                            <point x="0.987379" y="0.925287" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0126214" y="0.925287" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BlocND5" sid="623584112349556">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="317224671988836" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BlocND6" sid="354932640068434">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="265565132727562" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TexteND4_1" sid="647108902425733">
+            <plugin id="Sprite" />
+            <effects>
+                <effect-type name="Noise">
+                    <effect id="noise" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="964822882109069" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Sans titre - 4.png">
+                        <collision-poly>
+                            <point x="0.0079698" y="0.109195" />
+                            <point x="0.5" y="0" />
+                            <point x="0.99203" y="0.109195" />
+                            <point x="0.991611" y="0.885057" />
+                            <point x="0.5" y="1" />
+                            <point x="0.00838926" y="0.885057" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BlocND7" sid="550415360936878">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="371898173125874" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BlocND8" sid="680607634857347">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="432096758111573" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SansTitre" sid="931293879820660">
+            <plugin id="Sprite" />
+            <effects>
+                <effect-type name="Noise">
+                    <effect id="noise" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="746300413432985" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Sans titre - 5.png">
+                        <collision-poly>
+                            <point x="0.00886699" y="0.103448" />
+                            <point x="0.5" y="0" />
+                            <point x="0.991133" y="0.103448" />
+                            <point x="0.991133" y="0.896552" />
+                            <point x="0.5" y="1" />
+                            <point x="0.00935961" y="0.890805" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Family1" plugin-id="Sprite" sid="964374175173146">

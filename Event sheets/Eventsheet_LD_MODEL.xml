@@ -1614,27 +1614,131 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="435817307073381">
-            <conditions>
-                <condition behavior="Platform" id="7" name="On stopped" sid="674492946281724" type="Player" />
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="314028124424463" type="Player">
-                    <param id="0" name="Animation">&quot;stop&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="205737612536657">
-            <conditions>
-                <condition behavior="Platform" id="8" name="On moved" sid="146039678280735" type="Player" />
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="591494917049397" type="Player">
-                    <param id="0" name="Animation">&quot;Course&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="" sid="798172404835892" title="Player">
+            <sub-events>
+                <event-block sid="435817307073381">
+                    <conditions>
+                        <condition behavior="Platform" id="7" name="On stopped" sid="674492946281724" type="Player" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="314028124424463" type="Player">
+                            <param id="0" name="Animation">&quot;stop&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="205737612536657">
+                    <conditions>
+                        <condition behavior="Platform" id="8" name="On moved" sid="146039678280735" type="Player" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="591494917049397" type="Player">
+                            <param id="0" name="Animation">&quot;Course&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="958905656822440" title="PhraseNd">
+            <sub-events>
+                <event-block sid="401181634843166">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="994228653274357" type="BlocND1">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="176575511764667" type="PhraseNd4_2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="625375200259373">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="914275944708968" type="BlocND2">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="641500397603326" type="PhraseNd4_2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="490949884343840">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="355721172973861" type="BlocND3">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="587703087710835" type="TexteLD4_3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="853909536162617">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="320930620589346" type="BlocND4">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="805678289546460" type="TexteLD4_3">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="582652885325712">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="195484354575175" type="BlocND5">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="287793855116214" type="TexteND4_1">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="874999378462466">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="920293602298020" type="BlocND6">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="173145982264539" type="TexteND4_1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="109848474236024">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="948122530300400" type="BlocND7">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="150161411237948" type="SansTitre">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="520280578027880">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="949629028830321" type="BlocND8">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="825147766356724" type="SansTitre">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>
