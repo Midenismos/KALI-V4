@@ -1117,11 +1117,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1054</x>
-                        <y>501</y>
+                        <x>1056</x>
+                        <y>465</y>
                         <z>0</z>
-                        <width>431.497467041</width>
-                        <height>429.017578125</height>
+                        <width>359.380371094</width>
+                        <height>357.314971924</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50032115</hotspotY>
@@ -1322,6 +1322,35 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.50053823</hotspotY>
                         <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Ground" uid="625">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1062.534179688</x>
+                        <y>713.940368652</y>
+                        <z>0</z>
+                        <width>89</width>
+                        <height>49</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0.064262733</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

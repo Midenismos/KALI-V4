@@ -1210,33 +1210,308 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="24" loop="1" name="Course" pingpong="0" repeatcount="0" repeatto="0" sid="4140260648567028" speed="15">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_0.png" />
-                        <frame duration="1" hotspotX="0.502146" hotspotY="0.501002" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_1.png" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_2.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.501006" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_3.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_4.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.50101" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_5.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_6.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_7.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.50104" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_8.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.501044" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_9.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_10.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_11.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_12.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_13.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.501027" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_14.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.501023" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_15.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.501035" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_16.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_17.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_18.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.501075" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_19.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.501066" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_20.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_21.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_22.png" />
-                        <frame duration="1" hotspotX="0.502183" hotspotY="0.501066" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_23.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_0.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502146" hotspotY="0.501002" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_1.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50101" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_2.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.501006" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_3.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_4.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.50101" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_5.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_6.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_7.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.50104" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_8.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.501044" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_9.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_10.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_11.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_12.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_13.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.501027" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_14.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.501023" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_15.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.501035" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_16.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_17.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_18.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.501075" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_19.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.501066" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_20.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_21.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_22.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.502183" hotspotY="0.501066" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_23.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="Stop" pingpong="0" repeatcount="1" repeatto="0" sid="163492325307904" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_0.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\le-cl\Desktop\Animation\Corps_Kali_0.png">
+                            <collision-poly>
+                                <point x="0.382609" y="0.439271" />
+                                <point x="0.665217" y="0.222672" />
+                                <point x="0.978261" y="0.157895" />
+                                <point x="0.684783" y="0.47166" />
+                                <point x="0.852174" y="0.757085" />
+                                <point x="0.5" y="0.95749" />
+                                <point x="0.382609" y="0.821862" />
+                                <point x="0" y="0.678138" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
